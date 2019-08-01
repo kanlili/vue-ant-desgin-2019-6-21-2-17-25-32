@@ -8,9 +8,8 @@
     <a-radio-group name="radioGroup" :defaultValue="男">
     <a-radio :value="1">男</a-radio>
     <a-radio :value="2">女</a-radio>
-    <a-button type="primary">Submit</a-button>
-  </a-radio-group>
     
+  </a-radio-group> 
       <a-menu
     @click="handleClick"
     style="width: 256px"
@@ -27,6 +26,7 @@
       </a-menu-item-group>
     </a-sub-menu>
   </a-menu>
+   <a-button type="primary">Submit</a-button>
   </div>
   </div>
 </template>
